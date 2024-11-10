@@ -1,4 +1,4 @@
-This Static Resume Template by using:
+This Dynamic Resume Template which takes input of Data and tools used in this is:
 HTML
 CSS
-TS (for Toggle button to show and hide Skills Section) by using EventListner
+TS (for calling input Data to generate resume) by using EventListner, getElementbyID etc.
