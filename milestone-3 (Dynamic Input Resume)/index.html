@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Static Resume Builder</h1>
+    <form id="resume">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name"> <br>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter Email ID"> <br>
+
+            <label for="number">Cell Number:</label>
+            <input type="number" id="number" name="number" placeholder="Enter Cell Number"> <br>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Educational Information</legend>
+            <label for="qual">Qualification:</label>
+            <textarea id="educ" name="qual" rows="5" placeholder="Enter Your Education"></textarea><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Experience History</legend>
+            <label for="exp">Experience:</label>
+            <textarea id="exp" name="exp" rows="5" placeholder="Enter Your Work Experience"></textarea><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skill">Skills:</label>
+            <textarea id="skill" name="skill" rows="5" placeholder="Enter Your Skills"></textarea><br>
+        </fieldset>
+    <button type="submit"> Generate Resume </button>
+    </form>
+
+    <br>
+    <!--Now Lets write a code for Dynamic Resume-->
+    <div id="dispresume"></div>
+    <!--Link JS File with HTML-->
+    <script src="script.js"></script>
+</body>
+</html>
